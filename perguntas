@@ -1,0 +1,10 @@
+CREATE DATABASE perguntas;
+
+USE perguntas
+
+CREATE TABLE quizzes(
+    id INT PRIMARY KEY,
+    nome VARCHAR(255)
+);
+
+SHOW FIELDS FROM quizzes;
